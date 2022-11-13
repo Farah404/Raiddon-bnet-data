@@ -1,0 +1,82 @@
+ID,Flags,Name_lang,Description_lang,IconFileDataID
+4,1,Orcslayer,Increases success chance when fighting orcs.,897144
+5,0,Blizzard,Counters threat: Many Minions.,135857
+6,0,Shield Wall,Counters threat: Massive Strike.,132362
+7,1,Mountaineer,Increases success chance when fighting in the mountains.,236848
+8,1,Cold-Blooded,Increases success chance when fighting in the snow.,236833
+9,1,Wastelander,Increases success chance when fighting in the desert.,236846
+10,0,Leap of Faith,Counters threat: Area Damage.,463835
+11,0,Prayer of Healing,Counters threat: Group Damage.,135943
+29,1,Fast Learner,Increases the XP gained from a mission.,236225
+30,1,Natural Leader,Increases the XP gained for all followers on a mission.,236362
+36,1,Demonslayer,Increases success chance when fighting demons.,254651
+37,1,Beastslayer,Increases success chance when fighting beasts.,298659
+38,1,Ogreslayer,Increases success chance when fighting ogres.,236695
+39,1,Vineslayer,Increases success chance when fighting primals and their minions.,254105
+40,1,Gronnslayer,Increases success chance when fighting breakers and their minions.,236412
+41,1,Furyslayer,Increases success chance when fighting elemental furies.,254652
+42,1,Voidslayer,Increases success chance when fighting aberrations and undead.,298680
+43,1,Talonslayer,Increases success chance when fighting arakkoa and their minions.,952507
+44,1,Naturalist,Increases success chance when fighting in a forest.,236830
+45,1,Cave Dweller,Increases success chance when fighting underground.,409595
+46,1,Guerilla Fighter,Increases success chance when fighting in the jungle.,236850
+47,1,Urbanite,Increases success chance when fighting in a town.,462338
+48,1,Marshwalker,Increases success chance when fighting in a swamp.,236819
+49,1,Plainsrunner,Increases success chance when fighting on plains.,236712
+51,1,Fishing,Allows this follower to be assigned to the Fishing Shack.,136245
+52,1,Mining,Allows this follower to be assigned to the Mine.,136248
+53,1,Herbalism,Allows this follower to be assigned to the Herb Garden.,136246
+54,1,Alchemy,Allows this follower to be assigned to the Alchemy Lab.,136240
+55,1,Blacksmithing,Allows this follower to be assigned to the Forge.,136241
+56,1,Enchanting,Allows this follower to be assigned to the Enchanter's Study.,136244
+57,1,Engineering,Allows this follower to be assigned to the Engineering Works.,136243
+58,1,Inscription,Allows this follower to be assigned to the Scribe's Quarters.,237171
+59,1,Jewelcrafting,Allows this follower to be assigned to the Gem Boutique.,134071
+60,1,Leatherworking,Allows this follower to be assigned to the Tannery.,136247
+61,1,Tailoring,Allows this follower to be assigned to the Tailoring Emporium.,136249
+62,1,Skinning,Allows this follower to be assigned to the Barn.,134366
+63,1,Gnome-Lover,Increases success chance when on a mission with a gnome.,236446
+64,1,Human-Lover,Increases success chance when on a mission with a human.,236447
+65,1,Dwarf-Lover,Increases success chance when on a mission with a dwarf.,236443
+66,1,Night Elf-Lover,Increases success chance when on a mission with a night elf.,236450
+67,1,Draenei-Lover,Increases success chance when on a mission with a draenei.,236442
+68,1,Worgen-Lover,Increases success chance when on a mission with a worgen.,528692
+69,1,Pandaren-Lover,Increases success chance when on a mission with a pandaren.,626190
+70,1,Orc-Lover,Increases success chance when on a mission with an orc.,236451
+71,1,Undead-Lover,Increases success chance when on a mission with an undead.,236457
+72,1,Tauren-Lover,Increases success chance when on a mission with a tauren.,236454
+73,1,Troll-Lover,Increases success chance when on a mission with a troll.,236456
+74,1,Blood Elf-Lover,Increases success chance when on a mission with a blood elf.,236440
+75,1,Goblin-Lover,Increases success chance when on a mission with a goblin.,632354
+76,1,High Stamina,Increases success chance on missions longer than 6 hours.,135987
+77,1,Hyperactive,Increases success chance on missions shorter than 6 hours.,136088
+78,1,Lone Wolf,Increases success chance when on a mission alone.,538568
+79,1,Scavenger,Increases the materials gained from a mission.,413571
+80,1,Extra Training,Increases the XP gained from a mission for all followers by 50%.,975743
+81,1,Advanced Training,Increases the XP gained from a mission for all followers by 100%.,615342
+82,1,Combat Experience,Increases success chance for all bonus treasures on a mission.,413592
+83,1,Combat Expertise,Increases success chance for all bonus treasures on a mission.,413593
+84,1,Teleport,Reduces travel time by 50%.,135736
+85,1,Mass Teleport,Reduces travel time by 100%.,136054
+87,1,Well-Equipped,Increases the materials gained from a mission by 50%.,458725
+88,1,Heavily-Equipped,Increases the materials gained from a mission by 100%.,463852
+89,1,Bronze Key,Increases the chance to obtain treasure from a bronze chest.,134241
+90,1,Silver Key,Increases the chance to obtain treasure from a silver chest.,134245
+91,1,Gold Key,Increases the chance to obtain treasure from a gold chest.,135828
+92,1,Enchanted Key,Increases the chance to obtain treasure from all chests.,134236
+93,1,Unstable Portal,Reduces travel time by 25%.,607512
+94,1,Unstable Rift,Reduces travel time by 75%.,607513
+95,1,Quality Provisions,Reduces mission duration by 25%.,136000
+96,1,Epic Provisions,Reduces mission duration by 50%.,250626
+97,1,Manual of Tactics,Increases the XP gained from a mission for all followers by 25%.,133735
+98,1,Manual of Strategy,Increases the XP gained from a mission for all followers by 75%.,133737
+99,1,Manual of War,Increases the XP gained from a mission for all followers by 150%.,442732
+100,0,Taunt,Counters threat: Fixated Hated.,136080
+101,0,Multi-Shot,Counters threat: Many Minions.,132330
+102,0,Heroic Leap,Counters threat: Area Damage.,236171
+103,0,Rapid Fire,Counters threat: Berserk.,132208
+104,0,Sap,Counters threat: Deadly Minion.,132310
+105,0,Kick,Counters threat: Powerful Spell.,132219
+106,0,Chain Heal,Counters threat: Group Damage.,136042
+107,0,Purify Spiirt,Counters threat: Group Damage.,236288
+108,0,Growl,Counters threat: Fixated Hated.,132270

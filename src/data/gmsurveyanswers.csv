@@ -1,0 +1,114 @@
+ID,Sort_Index,GMSurveyQuestionID,Answer_lang
+104,0,35,N/A
+105,1,35,0
+106,2,35,1
+107,3,35,2
+108,4,35,3
+109,5,35,4
+110,6,35,5
+111,7,35,6
+112,8,35,7
+113,9,35,8
+114,10,35,9
+120,11,35,10
+101,0,36,N/A
+102,1,36,Yes
+103,2,36,No
+121,0,37,N/A
+115,1,37,Much worse
+116,2,37,Somewhat worse
+117,3,37,About the same
+118,4,37,Better
+119,5,37,Much better
+154,0,38,N/A
+155,1,38,Much worse
+156,2,38,Somewhat worse
+157,3,38,About the same
+152,4,38,Better
+153,5,38,Much better
+160,0,39,N/A
+161,1,39,Much worse
+162,2,39,Somewhat worse
+163,3,39,About the same
+158,4,39,Better
+159,5,39,Much better
+166,0,40,N/A
+167,1,40,Much worse
+168,2,40,Somewhat worse
+169,3,40,About the same
+164,4,40,Better
+165,5,40,Much better
+172,0,41,N/A
+173,1,41,Much worse
+174,2,41,Somewhat worse
+175,3,41,About the same
+170,4,41,Better
+171,5,41,Much better
+184,0,42,Not at All Satisfied
+185,1,42,
+186,2,42,
+187,3,42,
+188,4,42,Extremely Satisfied
+249,5,42,N/A
+189,0,43,Not at All Likely
+190,1,43,
+191,2,43,
+192,3,43,
+193,4,43,Extremely Likely
+194,5,43,N/A
+195,0,44,Not at All Likely
+196,1,44,
+197,2,44,
+198,3,44,
+199,4,44,Extremely Likely
+251,5,44,N/A
+200,0,45,Not at All Satisfied
+201,1,45,
+202,2,45,
+203,3,45,
+204,4,45,Extremely Satisfied
+252,5,45,N/A
+205,0,46,Strongly Disagree
+206,1,46,
+207,2,46,
+208,3,46,
+209,4,46,Strongly Agree
+210,5,46,N/A
+211,0,47,Strongly Disagree
+212,1,47,
+213,2,47,
+214,3,47,
+215,4,47,Strongly Agree
+216,5,47,N/A
+217,0,48,Strongly Disagree
+218,1,48,
+219,2,48,
+220,3,48,
+221,4,48,Strongly Agree
+222,5,48,N/A
+223,0,49,Strongly Disagree
+224,1,49,
+225,2,49,
+226,3,49,
+227,4,49,Strongly Agree
+228,5,49,N/A
+229,0,50,Yes
+230,1,50,No
+231,0,51,Not at All Satisfied
+232,1,51,
+233,2,51,
+234,3,51,
+235,4,51,Extremely Satisfied
+236,5,51,N/A
+394,0,52,Not Yet Resolved
+380,1,52,4 or more
+373,2,52,3
+366,3,52,2
+359,4,52,1
+352,5,52,N/A
+325,0,53,Strongly Disagree
+320,1,53,
+321,2,53,
+322,3,53,
+323,4,53,Strongly Agree
+324,5,53,N/A

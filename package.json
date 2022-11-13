@@ -1,0 +1,30 @@
+{
+  "name": "wow-data",
+  "version": "1.0.0",
+  "description": "World of warcraft fetching access token and data base node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Farah404/Raiddon.git"
+  },
+  "author": "https://github.com/Farah404",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Farah404/Raiddon/issues"
+  },
+  "homepage": "https://github.com/Farah404/Raiddon#readme",
+  "dependencies": {
+    "api": "^5.0.1",
+    "blizz": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "mongoose": "^6.7.1",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.20"
+  }
+}

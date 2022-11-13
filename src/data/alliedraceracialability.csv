@@ -1,0 +1,49 @@
+ID,Name_lang,Description_lang,IconFileDataID,OrderIndex,AlliedRaceID
+1,Ancient History,Increases Inscription skill.,1723985,4,2
+2,Magical Affinity,Increases magical damage.,1723986,2,2
+3,Cantrips,Summon a flying book that acts as a mailbox.,1723988,1,2
+4,Entropic Embrace,Your abilities have a chance to empower you with the essence of the Void.,1723992,1,5
+5,Ethereal Connection,Reduces the cost of Void Storage and Transmogrification.,1723993,3,5
+6,Preternatural Calm,Your spell casts are not delayed by taking damage.,1724001,2,5
+7,Chill of Night,Resistant to Shadow damage.,1723989,4,5
+8,Spatial Rift,Tear a rift in space and teleport to a destination.,1724004,0,5
+9,Arcane Resistance,Resistant to Arcane damage.,1723997,3,2
+10,Arcane Pulse,Damage and snare nearby enemies.,1851463,0,2
+11,Bull Rush,"Charge forward, knocking down your enemies.",1723987,0,4
+12,Pride of Ironhorn,Increases mining skill and speed.,1724002,4,4
+13,"Waste Not, Want Not",Chance to gather additional meat and fish.,1724005,3,4
+14,Mountaineer,Increases Versatility.,1723999,2,4
+15,Rugged Tenacity,Reduces damage from incoming attacks.,1724003,1,4
+16,Light's Judgment,Deal mighty holy damage to an area.,1724000,0,6
+17,Holy Resistance,Reduces Holy damage taken.,1723996,2,6
+18,Light's Reckoning,"Erupt upon death, dealing Holy damage to nearby enemies and healing nearby allies.",1723994,1,6
+19,Forge of Light,Increases Blacksmithing skill and allows you to summon an anvil.,1723995,3,6
+20,Demonbane,Increased experience gained from killing demons.,1723990,4,6
+121,Fireblood,Removes harmful effects and empowers you.,1786406,0,107
+122,Dungeon Delver,Move faster while indoors.,1786405,1,107
+123,Mass Production,"Blacksmithing skill increased, and blacksmithing crafts faster.",1786408,2,107
+124,Mole Machine,"When outdoors, summon a mole machine that tunnels through the earth.",1786409,3,107
+125,Forged in Flames,Reduces physical damage taken.,1786407,4,107
+126,Ancestral Call,"Invokes the power of your ancestors, granting you their power.",2021574,0,108
+127,Open Skies,Faster mount speed while outdoors.,2021575,1,108
+128,Sympathetic Vigor,Pet health increased.,2021577,2,108
+129,Savage Blood,"Reduces the duration on all Poisons, Diseases, and Curse effects on you.",2021576,3,108
+130,Regeneratin',Concentrate to heal yourself rapidly over a short time.,1850550,0,109
+131,Embrace of the Loa,"Beseech a Loa, obtaining one of six powerful boons.",1850548,1,109
+132,City of Gold,Discover more gold from creatures.,1850547,2,109
+133,Pterrordax Swoop,Summons a Pterrordax to reduce your falling speed.,1850549,3,109
+134,Haymaker,"Smash your opponent, stunning and knocking them back.",2447782,0,110
+135,Jack of All Trades,All tradeskill skills increased.,2447783,1,110
+136,Rime of the Ancient Mariner,Resistant to Frost and Nature damage.,2447784,2,110
+137,Child of the Sea,Swim faster and hold your breath longer underwater.,2447781,3,110
+138,Brush It Off,Increases Versatility and heals a portion of the damage you take.,2447780,4,110
+147,Hyper Organic Light Originator,Summon duplicates to distract your enemies.,3192686,0,117
+148,Mastercraft,You act as a personal crafting station.,3192687,2,117
+149,Combat Analysis,Gradually gain power as you analyze an enemy in combat.,3192685,1,117
+150,Skeleton Pinkie,Able to pick locks.,3192689,3,117
+151,Emergency Failsafe,Automatically heal when you are badly injured.,3192688,4,117
+152,Bag of Tricks / Rummage Your Bag,Use a trick to harm an enemy or heal an ally. Collect different kinds of trick in the world.,3193416,0,118
+153,Make Camp / Return to Camp,"Place a friendly campsite in the world, with the option to return to it later.",3193418,1,118
+154,Nose For Trouble,Take less damage the first time an enemy hits you.,3193419,2,118
+155,Alpaca Saddlebags,Your backpack has 8 additional slots.,3193421,3,118
+156,Fire Resistance,Reduces Fire damage taken.,3193417,4,118

@@ -1,0 +1,537 @@
+ID,Description
+1,Global - Non-Scaling - Static Level (DO NOT USE FOR COMBAT STALKERS)
+2,Classic - Azshara
+3,Classic - Northern Barrens
+4,Classic - Bloodmyst Isle
+5,Classic - Darkshore
+6,Classic - Westfall
+7,Classic - Silverpine Forest
+8,Classic - Ghostlands
+9,Classic - Loch Modan
+10,Classic - Redridge Mountains
+11,Classic - Hillsbrad Foothills
+12,Classic - Ashenvale
+13,Classic - Duskwood
+14,Classic - Stonetalon Mountains
+15,Classic - Wetlands
+16,Classic - Southern Barrens
+17,Classic - Arathi Highlands
+18,Classic - Northern Stranglethorn
+19,Classic - Desolace
+20,Classic - The Hinterlands
+21,Classic - Thousand Needles
+22,Classic - Feralas
+23,Classic - Dustwallow Marsh
+24,Classic - The Cape of Stranglethorn
+25,Classic - Western Plaguelands
+26,Classic - Felwood
+27,Classic - Badlands
+28,Classic - Tanaris
+29,Classic - Searing Gorge
+30,Classic - Burning Steppes
+31,Classic - Swamp of Sorrows
+32,Classic - Un'Goro Crater
+33,Classic - Winterspring
+34,Classic - Blasted Lands
+35,Classic - Eastern Plaguelands
+36,Classic - Silithus
+37,BC - Hellfire Peninsula
+38,BC - Zangarmarsh
+39,BC - Terokkar Forest
+40,BC - Nagrand
+41,BC - Blade's Edge Mountains
+42,BC - Netherstorm
+43,BC - Shadowmoon Valley
+44,LK - Borean Tundra
+45,LK - Howling Fjord
+46,LK - Dragonblight
+47,LK - Grizzly Hills
+48,LK - Zul'Drak
+49,LK - Sholazar Basin
+50,LK - The Storm Peaks
+51,LK - Icecrown
+52,Cata - Mount Hyjal
+53,Cata - Vashj'ir
+54,Cata - Deepholm
+55,Cata - Uldum
+56,Cata - Twilight Highlands
+57,MoP - The Jade Forest
+58,MoP - Valley of the Four Winds
+59,MoP - Krasarang Wilds
+60,MoP - Kun-Lai Summit
+61,MoP - Townlong Steppes
+62,MoP - Dread Wastes
+63,WoD - Shadowmoon Valley
+64,WoD - Frostfire Ridge
+65,WoD - Gorgrond
+66,WoD - Talador
+67,WoD - Spires of Arak
+68,WoD - Nagrand
+69,PRK Test
+70,Classic - Durotar
+71,Classic - Mulgore
+72,Classic - Teldrassil
+73,Classic - Elwynn Forest
+74,Classic - Dun Morogh
+75,Classic - Tirisfal Glades
+76,Classic - Azuremyst Isle
+77,Classic - Eversong Woods
+78,Classic - Gilneas
+79,Classic - Lost Isles
+80,Classic - Wandering Isle
+81,Critters (Unscaled)
+82,Classic - Azshara (Non-Scaling)
+83,Classic - Northern Barrens (Non-Scaling)
+84,Classic - Bloodmyst Isle (Non-Scaling)
+85,Classic - Darkshore (Non-Scaling)
+86,Classic - Westfall (Non-Scaling)
+87,Classic - Silverpine Forest (Non-Scaling)
+88,Classic - Ghostlands (Non-Scaling)
+89,Classic - Loch Modan (Non-Scaling)
+90,Classic - Redridge Mountains (Non-Scaling)
+91,Classic - Hillsbrad Foothills (Non-Scaling)
+92,Classic - Ashenvale (Non-Scaling)
+93,Classic - Duskwood (Non-Scaling)
+94,Classic - Stonetalon Mountains (Non-Scaling)
+95,Classic - Wetlands (Non-Scaling)
+96,Classic - Southern Barrens (Non-Scaling)
+97,Classic - Arathi Highlands (Non-Scaling)
+98,Classic - Northern Stranglethorn (Non-Scaling)
+99,Classic - Desolace (Non-Scaling)
+100,Classic - The Hinterlands (Non-Scaling)
+101,Classic - Thousand Needles (Non-Scaling)
+102,Classic - Feralas (Non-Scaling)
+103,Classic - Dustwallow Marsh (Non-Scaling)
+104,Classic - The Cape of Stranglethorn (Non-Scaling)
+105,Classic - Western Plaguelands (Non-Scaling)
+106,Classic - Felwood (Non-Scaling)
+107,Classic - Badlands (Non-Scaling)
+108,Classic - Tanaris (Non-Scaling)
+109,Classic - Searing Gorge (Non-Scaling)
+110,Classic - Burning Steppes (Non-Scaling)
+111,Classic - Swamp of Sorrows (Non-Scaling)
+112,Classic - Un'Goro Crater (Non-Scaling)
+113,Classic - Winterspring (Non-Scaling)
+114,Classic - Blasted Lands (Non-Scaling)
+115,Classic - Eastern Plaguelands (Non-Scaling)
+116,Classic - Silithus (Non-Scaling)
+117,BC - Hellfire Peninsula (Non-Scaling)
+118,BC - Zangarmarsh (Non-Scaling)
+119,BC - Terokkar Forest (Non-Scaling)
+120,BC - Nagrand (Non-Scaling)
+121,BC - Blade's Edge Mountains (Non-Scaling)
+122,BC - Netherstorm (Non-Scaling)
+123,BC - Shadowmoon Valley (Non-Scaling)
+124,LK - Borean Tundra (Non-Scaling)
+125,LK - Howling Fjord (Non-Scaling)
+126,LK - Dragonblight (Non-Scaling)
+127,LK - Grizzly Hills (Non-Scaling)
+128,LK - Zul'Drak (Non-Scaling)
+129,LK - Sholazar Basin (Non-Scaling)
+130,LK - The Storm Peaks (Non-Scaling)
+131,LK - Icecrown (Non-Scaling)
+132,Cata - Mount Hyjal (Non-Scaling)
+133,Cata - Vashj'ir (Non-Scaling)
+134,Cata - Deepholm (Non-Scaling)
+135,Cata - Uldum (Non-Scaling)
+136,Cata - Twilight Highlands (Non-Scaling)
+137,MoP - The Jade Forest (Non-Scaling)
+138,MoP - Valley of the Four Winds (Non-Scaling)
+139,MoP - Krasarang Wilds (Non-Scaling)
+140,MoP - Kun-Lai Summit (Non-Scaling)
+141,MoP - Townlong Steppes (Non-Scaling)
+142,MoP - Dread Wastes (Non-Scaling)
+143,WoD - Shadowmoon Valley (Non-Scaling)
+144,WoD - Frostfire Ridge (Non-Scaling)
+145,WoD - Gorgrond (Non-Scaling)
+146,WoD - Talador (Non-Scaling)
+147,WoD - Spires of Arak (Non-Scaling)
+148,WoD - Nagrand (Non-Scaling)
+150,Classic - Durotar (Non-Scaling)
+151,Classic - Mulgore (Non-Scaling)
+152,Classic - Teldrassil (Non-Scaling)
+153,Classic - Elwynn Forest (Non-Scaling)
+154,Classic - Dun Morogh (Non-Scaling)
+155,Classic - Tirisfal Glades (Non-Scaling)
+156,Classic - Azuremyst Isle (Non-Scaling)
+157,Classic - Eversong Woods (Non-Scaling)
+158,Classic - Gilneas (Non-Scaling)
+159,Classic - Lost Isles (Non-Scaling)
+160,Classic - Wandering Isle (Non-Scaling)
+161,BC Endgame - Isle of Quel'Danas
+162,BC Endgame - Isle of Quel'Danas (Non-Scaling)
+163,LK - Crystalsong Forest
+164,LK - Crystalsong Forest (Non-Scaling)
+165,Cata Endgame - Molten Front
+166,Cata Endgame - Molten Front (Non-Scaling)
+167,MoP Endgame - Isle of the Thunder King
+168,MoP Endgame - Isle of Giants
+169,MoP Endgame - Timeless Isle
+170,MoP Endgame - Isle of the Thunder King (Non-Scaling)
+171,MoP Endgame - Isle of Giants (Non-Scaling)
+172,MoP Endgame - Timeless Isle (Non-Scaling)
+173,MoP Endgame - Vale of Eternal Blossoms
+174,MoP Endgame - Vale of Eternal Blossoms (Non-Scaling)
+175,Debug - CWK Test
+176,WoD Endgame - Tanaan Jungle
+177,WoD Endgame - Tanaan Jungle (Non-Scaling)
+178,WoD - Tanaan Jungle Intro
+179,WoD - Tanaan Jungle Intro (Non-Scaling)
+181,World - All Levels Scaling
+182,Micro-Holiday: Un'Goro Madness
+183,Micro-Holiday: Call of the Scarab
+184,Micro-Holiday: Thousand Boat Bash
+185,Micro-Holiday: Hatching of the Hippogryphs
+186,8.0 Zone - Tiragarde Sound
+187,8.0 Zone - Drustvar
+188,8.0 Zone - Stormsong Valley
+189,8.0 Zone - Zuldazar
+190,8.0 Zone - Nazmir
+191,8.0 Zone - Vol'dun
+192,Cata Endgame - Elemental Bonds
+193,Dungeon - Classic - Wailing Caverns
+194,Classic: Cape of Stranglethorn (Offset from Max Level)
+195,Classic - Hillsbrad Foothills (Offset from Max Level)
+196,LK - Dalaran
+197,Classic - Northern Barrens (Offset from Max Level)
+198,Classic - Tanaris (Offset from Max Level)
+199,Classic - Winterspring (Offset from Max Level)
+200,Dungeon - Classic - Blackfathom Deeps
+201,Dungeon - Classic - Blackrock Depths (Entire Instance)
+202,Dungeon - Classic - Deadmines
+203,Dungeon - Classic - Dire Maul (East)
+204,Dungeon - Classic - Gnomeregan
+205,Dungeon - Classic - Lower Blackrock Spire
+206,Dungeon - Classic - Maraudon (Orange)
+207,Dungeon - Classic - Ragefire Chasm
+208,Dungeon - Classic - Razorfen Kraul
+209,Dungeon - Classic - Razorfen Downs
+210,Dungeon - Classic - Scarlet Halls
+211,Dungeon - Classic - Scarlet Monastery
+212,Dungeon - Classic - Scholomance
+213,Dungeon - Classic - Shadowfang Keep
+214,Dungeon - Classic - Stratholme (Live)
+215,Dungeon - Classic - The Stockade
+216,Dungeon - Classic - The Temple of Atal'hakkar
+217,Dungeon - Classic - Uldaman
+218,Dungeon - Classic - Zul'Farrak
+219,Dungeon - BC - Auchenai Crypts
+220,Dungeon - BC - Hellfire Ramparts
+221,Dungeon - BC - Magisters' Terrace
+222,Dungeon - BC - Mana-Tombs
+223,Dungeon - BC - Old Hillsbrad Foothills
+224,Dungeon - BC - Sethekk Halls
+225,Dungeon - BC - Shadow Labyrinth
+226,Dungeon - BC - The Arcatraz
+227,Dungeon - BC - The Black Morass
+228,Dungeon - BC - The Blood Furnace
+229,Dungeon - BC - The Botanica
+230,Dungeon - BC - The Mechanar
+231,Dungeon - BC - The Shattered Halls
+232,Dungeon - BC - The Slave Pens
+233,Dungeon - BC - The Steamvault
+234,Dungeon - BC - The Underbog
+235,Dungeon - LK - Ahn'kahet: The Old Kingdom
+236,Dungeon - LK - Azjol-Nerub
+237,Dungeon - LK - Drak'Tharon Keep
+238,Dungeon - LK - Gundrak
+239,Dungeon - LK - Halls of Lightning
+240,Dungeon - LK - Halls of Reflection
+241,Dungeon - LK - Halls of Stone
+242,Dungeon - LK - Pit of Saron
+243,Dungeon - LK - The Culling of Stratholme
+244,Dungeon - LK - The Forge of Souls
+245,Dungeon - LK - The Nexus
+246,Dungeon - LK - The Oculus
+247,Dungeon - LK - The Violet Hold
+248,Dungeon - LK - Trial of the Champion
+249,Dungeon - LK - Utgarde Keep
+250,Dungeon - LK - Utgarde Pinnacle
+251,Dungeon - Cata - Blackrock Caverns
+252,Dungeon - Cata - End Time (Disabled)
+253,Dungeon - Cata - Grim Batol
+254,Dungeon - Cata - Halls of Origination
+255,Dungeon - Cata - Hour of Twilight (Disabled)
+256,Dungeon - Cata - Lost City of Tol'vir
+257,Dungeon - Cata - The Stonecore
+258,Dungeon - Cata - The Vortex Pinnacle
+259,Dungeon - Cata - Throne of the Tides
+260,Dungeon - Cata - Well of Eternity (Disabled)
+261,Dungeon - Cata - Zul'Aman (Disabled)
+262,Dungeon - Cata - Zul'Gurub (Disabled)
+263,Dungeon - MoP - Gate of the Setting Sun
+264,Dungeon - MoP - Mogu'shan Palace
+265,Dungeon - MoP - Shado-Pan Monastery
+266,Dungeon - MoP - Siege of Niuzao Temple
+267,Dungeon - MoP - Stormstout Brewery
+268,Dungeon - MoP - Temple of the Jade Serpent
+269,Dungeon - WoD - Auchindoun
+270,Dungeon - WoD - Bloodmaul Slag Mines
+271,Dungeon - WoD - Grimrail Depot
+272,Dungeon - WoD - Iron Docks
+273,Dungeon - WoD - Shadowmoon Burial Grounds
+274,Dungeon - WoD - Skyreach
+275,Dungeon - WoD - The Everbloom
+276,Dungeon - WoD - Upper Blackrock Spire
+277,Dungeon (Does Not Scale)
+278,Dungeon - Classic - Dire Maul (North)
+279,Dungeon - Classic - Dire Maul (West)
+280,Dungeon - Classic - Maraudon (Purple)
+281,Dungeon - Classic - Maraudon (Clean)
+282,Dungeon - Classic - Stratholme (Dead)
+288,8.0 - PreLaunch Teldrassil Event
+289,8.0 - Island Expeditions - Normal
+290,8.0 Warfronts
+292,8.0 - Scaling 110-120 Miscellaneous (Professions)
+293,7.3.5 Allied Races
+294,Holiday - Love is in the Air (Min 10)
+295,Holiday - Hallow's End (Min 20)
+296,Holiday - Winter's Veil (Min 60)
+297,Holiday - Midsummer Fire Festival (Min 20)
+298,Holiday - Brewfest (Min 20)
+300,CREATURE ONLY - World (Does Not Scale)
+301,WoD - Garrison Attack
+302,WoD - Garrison (Min 90)
+303,Cata - Legendary 4.3
+304,MoP - Legendary 5.x
+305,WoD - Legendary 6.x
+306,Dungeon - WoD - Shared Dungeon Items
+307,Dungeon - MoP - Shared Dungeon Items
+308,Dungeon - Cata - Shared Dungeon Items
+309,Dungeon - BC - Shared Dungeon Items
+310,Dungeon - LK - Shared Dungeon Items
+311,Dungeon - Classic - Shared Dungeon Items
+315,Cata/Mists - Level 91-95 Level Band
+316,BC/LK - Level 81-85 Level Band
+317,WoD - Level 101-105 Level Band
+321,BC/LK - Level 76-80 Level Band
+322,Cata/Mists - Level 86-90 Level Band
+323,WoD - Level 96-100 Level Band
+324,Micro-Holiday: Salute a Guard Day
+326,Dungeon - Cata - Heroic Dungeon
+327,Holiday - WoD Outdoor Content
+328,Global - Offset from Max Level
+329,PVP - Battle Ring
+330,Micro-Holiday: Moonkin Festival
+331,Legion - Zone - Azsuna
+332,Legion - Zone - Val'sharah
+333,Legion - Zone - Highmountain
+334,Legion - Zone - Stormheim
+335,Legion Endgame - Zone -  Suramar
+336,Legion Endgame - Zone - 7.2 Broken Shore (Outdoor)
+337,Legion Endgame - Zone - 7.3 Argus Outdoor
+338,Holiday - Pirate Day
+339,Legion - Order Hall (Min 98)
+340,Legion - Order Hall (Min 101)
+341,Legion - Order Hall (Min 103)
+342,Legion - Order Hall (Min 105)
+343,Legion - Order Hall (Min 110)
+344,"Legion - Order Hall (Min 110, Patch 7.2)"
+345,Legion - Illidan Origins
+346,Legion - Order Hall (Min 100)
+347,"Legion Endgame - General (Broken Isles WQ, etc.)"
+348,Legion - Professions (Min 98)
+349,Legion - Professions (Min 100)
+350,Legion - Professions (Min 102)
+351,Legion - Professions (Min 104)
+352,Legion - Professions (Min 106)
+353,Legion - Professions (Min 108)
+354,Legion - Professions (Min 110)
+355,"Legion - Professions (Min 110, Patch 7.3)"
+356,Legion - Prelaunch Event (100)
+357,Legion - Order Hall (Min 102)
+358,WoD - Garrison (Min 92)
+359,WoD - Garrison (Min 98)
+360,WoD - Garrison (Min 100)
+361,World - Riding Trainer
+362,World - Flying Trainer
+363,Monk - Level 20
+364,Monk - Level 30
+365,Monk - Level 40
+366,Monk - Level 50
+367,Monk - Level 60
+368,Monk - Level 70
+369,Monk - Level 80
+370,Monk - Level 90
+371,World - Pet Battle (Min 1)
+372,World - Pet Battle (Min 90)
+373,World - Pet Battle (Min 98)
+374,Scenario - Min Level 1
+375,Holiday - Children's Week (Min 10)
+376,Holiday - Children's Week (Min 60)
+377,Dungeon - Cata - Archaeology Keystone
+378,Holiday - Love is in the Air (Min 1)
+379,Holiday - Love is in the Air (Min 5)
+380,Holiday - Love is in the Air (Min 14)
+381,Holiday - Love is in the Air (Min 23)
+382,Holiday - Love is in the Air (Min 32)
+383,Holiday - Love is in the Air (Min 41)
+384,Holiday - Love is in the Air (Min 51)
+385,Holiday - Love is in the Air (Min 61)
+386,Holiday - Love is in the Air (Min 71)
+387,Holiday - Love is in the Air (Min 78)
+388,Holiday - Love is in the Air (Min 81)
+389,Holiday - Pilgrim's Bounty
+390,Holiday - Noblegarden
+391,World - Professions (All Levels)
+392,Holiday - Brewfest (Min 1)
+393,Holiday - Brewfest (Min 75)
+394,Holiday - Midsummer Fire Festival (Min 1)
+395,Holiday - Midsummer Fire Festival (Min 16)
+396,Holiday - Midsummer Fire Festival (Min 50)
+397,Holiday - Midsummer Fire Festival (Min 64)
+398,Holiday - Scourge Invasion (Min 1)
+399,Holiday - Scourge Invasion (Min 45)
+400,Holiday - Scourge Invasion (Min 50)
+401,Holiday - Lunar New Year (Min 1)
+402,Darkmoon Faire (Min 1)
+403,Darkmoon Faire (Min 10)
+404,Darkmoon Faire (Min 20)
+405,Darkmoon Faire (Min 30)
+406,Darkmoon Faire (Min 40)
+407,Darkmoon Faire (Min 50)
+408,World - Professions (Min 10)
+409,World - Professions (Min 20)
+410,Legion - Rogue Pickpocketing
+411,"""Classic"" - Azshara Max Level (60-Cap)"
+412,World - Professions (Min 65)
+413,WoD - Garrison (Min 94)
+414,Holiday - Day of the Dead
+415,WoD - Garrison (Min 96)
+416,Cata - Prologue
+417,Holiday - Winter's Veil (Min 1)
+418,Holiday - New Year (Min 1)
+419,Holiday - WoW Anniversary (Min 1)
+420,Holiday - Winter's Veil (Min 10)
+421,Holiday - Winter's Veil (Min 20)
+422,Holiday - Winter's Veil (Min 30)
+423,Holiday - Winter's Veil (Min 40)
+424,Holiday - WoW Anniversary (Min 60)
+425,Holiday - Hallow's End (Min 1)
+426,Holiday - Hallow's End (Min 10)
+427,Holiday - Hallow's End (Min 60)
+428,Holiday - Hallow's End (Min 75)
+429,Holiday - Hallow's End (Min 98)
+430,WoD Endgame - Heirloom
+431,Legion Endgame - 7.2 Zone Assaults
+432,WoD - Garrison (Min 99)
+433,PvP - Classic - Alterac Valley
+434,Holiday - Winter's Veil (Min 100)
+435,Holiday - Hallow's End (Min 100)
+436,Legion - Pre-Launch Invasion
+437,Micro-Holiday: Great Gnomeregan Race
+438,Micro-Holiday: March of the Murlocs
+439,Timewalking - BC
+440,Timewalking - LK
+441,Timewalking - Cata
+442,Timewalking - MoP
+443,World (Min 10)
+444,World (Min 15)
+445,World (Min 30)
+446,Dungeon - Legion 7.0 - 105-110 (Violet Hold)
+464,8.0 WQ / Endgame / 120 Only
+465,8.0 - Guards
+467,8.0 - War Campaign 110-120
+469,Chest/Gathering XP Range 1 - max level
+476,Raid - Legion - Antorus - Normal
+477,Raid - Legion - Antorus - Heroic
+479,Holiday - Love is in the Air - Boss
+480,Dungeon - Legion 7.0 - Neltharion's Lair
+481,Holiday - Dinosaurs
+482,Player Spell
+483,PvP - Max Level
+484,Dungeon - Legion 7.0 - Eye of Azshara
+485,Dungeon - Legion 7.0 - 98-110
+486,Dungeon - Legion 7.0 - Halls of Valor
+487,zzold7.3 - Dungeon - Seat of the Triumvirate
+488,Legion - 98-110 Misc
+492,8.0 - War Campaign 120
+494,8.0 - Lordaeron Scenario/BFA intro
+498,Raid - Legion - Tomb of Sargeras - Normal
+499,"Dungeon - Legion 7.x - 110 Only (Helheim, Kara, Cathedral, Seat)"
+500,8.0 Dungeons - Normal Difficulty
+501,8.0 Dungeons - Heroic Difficulty
+502,8.0 Dungeons - Mythic Difficulty
+503,8.0 Raid Nazmir - Normal
+504,8.0 Raid Nazmir - Heroic
+505,8.0 Raid Nazmir - Mythic
+506,8.0 Raid Nazmir - LFR
+517,8.0 Allied Races
+617,Legion Endgame - 7.2 Artifact Challenges
+618,Raid - Legion - Nighthold - LFR
+619,Raid - Legion - Nighthold - Normal
+620,Raid - Legion - Nighthold - Heroic
+621,Raid - Legion - Nighthold - Mythic
+622,Raid - Legion - Trial of Valor - Normal
+623,Brawler's Guild
+624,Raid - Legion - Emerald Nightmare - Normal
+625,Raid - Legion - Emerald Nightmare - Heroic
+626,Raid - Legion - Emerald Nightmare - Mythic
+627,Raid - Legion - Emerald Nightmare - LFR
+628,Dungeon - Legion 7.x - Heroic
+629,Dungeon - Legion 7.x - Mythic
+630,"Legion Non-Scaling creatures (Dalaran NPCs, Battle Pets, Other)"
+631,Legion - Illidan Origins Destiny Unfulfilled
+632,Proving Grounds
+633,"Legion - Order Hall - Missions, Followers, Flavor"
+634,Raid - Legion - Trial of Valor - Heroic
+635,Raid - Legion - Trial of Valor - Mythic
+636,Raid - Legion - Trial of Valor - LFR
+637,Raid - Legion - Antorus - Mythic
+638,Raid - Legion - Antorus - LFR
+639,Raid - Legion - Tomb of Sargeras - Heroic
+640,Raid - Legion - Tomb of Sargeras - Mythic
+641,Raid - Legion - Tomb of Sargeras - LFR
+642,Legion - Artifact Acquisitions 98-110
+644,8.0 - Island Expeditions - Heroic
+645,8.0 - Island Expeditions - Mythic
+646,Test - Ken - Island Pre-Scaling
+650,7.3.5 Silithus
+651,"Global - Always Level 1 (Bonfires, Debug spells)"
+653,Classic - Creature Generic (Non-Scaling)
+654,Northrend - Generic (Non-Scaling)
+655,Outland - Generic (Non-Scaling)
+656,Cataclsym - Generic (Non-Scaling)
+657,Pandaria - Generic (Non-Scaling)
+658,Draenor - Generic (Non-Scaling)
+659,Legion - Generic (Non-Scaling)
+662,Max Level Instance - LK
+663,PVP Battleground - Alterac Valley
+664,Always Level 60 Classic
+665,Max Level Instance - BC
+666,Max Level Instance - Classic
+667,Max Level Instance - Cataclysm
+668,Max Level Instance - MoP
+669,Max Level Instance - Warlords
+670,8.0 - Island Expeditions - PvP
+671,"Holiday - Lunar New Year (Omen, Min 20)"
+672,Legion Endgame - Chromie
+673,Debug - BOT TEST
+674,8.0 Allied Races (110-120)
+675,Classic - Level 1-60
+676,Treasure - BC - 58-80 
+677,Treasure - WLK - 58-80 
+679,Treasure - Cata - 80-90 
+680,Treasure - MOP - 80-90 
+681,Treasure - WoD - 90-100
+682,Treasure - Legion - 98-110
+683,Treasure - Classic 1-60
+684,Test - Level 120/ilvl385 mythic
+686,8.1 Raid Zuldazar - Normal
+687,8.1 Raid Zuldazar - Heroic
+688,8.1 Raid Zuldazar - Mythic
+689,8.1 Raid Zuldazar - LFR
+691,8.1 Zone - Outdoor
+693,8.1 Warfronts
+695,8.1 Shrine Raid - LFR
+696,8.1 Shrine Raid - Mythic
+697,8.1 Shrine Raid - Heroic
+698,8.1 Shrine Raid - Normal
+699,Legion - DH Starting Experience
+700,7.3.5 Allied Races (Quests)
+703,8.3 Zone - Outdoor
+705,Treasure - Battle for Azeroth 110-120
+706,8.1 Incursions
+707,MoP Endgame - Isle of the Thunder King - Loot Room
+708,8.0 - Professions (Min 120)
+711,Mop Endgame - Durotar 5.3: Storyline

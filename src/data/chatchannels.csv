@@ -1,0 +1,7 @@
+ID,Flags,FactionGroup,Name_lang[0],Name_lang[1],Name_lang[2],Name_lang[3],Name_lang[4],Name_lang[5],Name_lang[6],Name_lang[7],Name_lang[8],Name_lang[9],Name_lang[10],Name_lang[11],Name_lang[12],Name_lang[13],Name_lang[14],Name_lang[15],Name_lang_mask,Shortcut_lang[0],Shortcut_lang[1],Shortcut_lang[2],Shortcut_lang[3],Shortcut_lang[4],Shortcut_lang[5],Shortcut_lang[6],Shortcut_lang[7],Shortcut_lang[8],Shortcut_lang[9],Shortcut_lang[10],Shortcut_lang[11],Shortcut_lang[12],Shortcut_lang[13],Shortcut_lang[14],Shortcut_lang[15],Shortcut_lang_mask
+1,524291,0,General - %s,,,,,,,,,,,,,,,,16712190,General,,,,,,,,,,,,,,,,16712190
+2,59,0,Trade - %s,,,,,,,,,,,,,,,,16712190,Trade,,,,,,,,,,,,,,,,16712190
+22,65539,0,LocalDefense - %s,,,,,,,,,,,,,,,,16712190,LocalDefense,,,,,,,,,,,,,,,,16712190
+23,65540,0,WorldDefense,,,,,,,,,,,,,,,,16712190,WorldDefense,,,,,,,,,,,,,,,,16712190
+25,131122,0,GuildRecruitment - %s,,,,,,,,,,,,,,,,16712190,GuildRecruitment,,,,,,,,,,,,,,,,16712190
+26,262201,0,LookingForGroup,,,,,,,,,,,,,,,,16712190,LookingForGroup,,,,,,,,,,,,,,,,16712190
