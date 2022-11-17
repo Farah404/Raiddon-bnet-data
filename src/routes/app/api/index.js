@@ -1,5 +1,10 @@
 const router = require('express').Router();
 const { BlizzAPI } = require('blizzapi');
+<<<<<<< Updated upstream
+=======
+const { env } = process;
+
+>>>>>>> Stashed changes
 
 const { env } = process;
 

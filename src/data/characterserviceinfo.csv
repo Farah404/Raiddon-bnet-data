@@ -1,6 +1,0 @@
-ID,FlowTitle_lang,PopupTitle_lang,PopupDescription_lang,BoostType,IconFileDataID,Priority,Flags,ProfessionLevel,BoostLevel,Expansion,PopupUITextureKitID
-1,Level 100 Boost,Free Level 100 Boost,"World of Warcraft: Legion includes a level 100 character boost. You can choose to boost an existing character, try a new class before using your boost, or close the window to use the boost later.",2,1033987,90,1,700,100,6,260
-5,Battle for Azeroth Boost,Free Level 110 Boost,World of Warcraft: Battle for Azeroth includes a level 110 character boost. Choose one of the options below or close the window to use the boost later.,3,3573824,80,1,700,48,7,265
-6,Level 90 Boost,Free Level 90 Boost,This boost came free with your purchase of Warlords of Draenor,1,614740,100,0,625,90,5,260
-107,Try Battle for Azeroth Free,Try Battle for Azeroth Free,Create a trial character to play the Battle for Azeroth intro experience.,0,136235,1100,0,0,0,7,265
-118,Shadowlands Boost,Free Level 120 Boost,,4,3752121,70,1,0,50,7,265
