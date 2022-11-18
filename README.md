@@ -1,38 +1,48 @@
 ![RAIDDON](https://user-images.githubusercontent.com/96427557/200582770-00732e9c-733b-4706-acaf-f7a082bb4e78.png)
 
-![Battle net_2021_logo](https://user-images.githubusercontent.com/96427557/201051929-e0a4dc90-f852-4175-a8df-06f6f0eead91.jpg)
-
 
 This microservice is a flexible and feature-rich javascript that allows you to fetch your [battle.net](https://us.shop.battle.net/en-us) acces token using the [BlizzAPI](https://github.com/blizzapi/blizzapi#blizzapi) in order to access to Blizzard Battle.net APIs.
-
-# Install
-
-`npm install blizzapi`
-
-# Quick start
-```javascript
-const { BlizzAPI } = require("blizzapi");
-
-/**
- * Or using TypeScript:
- * import { BlizzAPI } from 'blizzapi';
- */
-
-const api = new BlizzAPI({
-  region: "us",
-  clientId: "client id",
-  clientSecret: "client secret",
-});
-
-const data = await api.query("/path/to/endpoint");
-
-console.log(data);
+<br />
+This work is a part of a bigger project: RAIDDON. Raiddon is a project that fosters all the developpement and conceptual understandings acquired 
+throughout  the  ISIKA  10-month  educational  program.  
+<br />
+The code will first fetch your access token then fetch multiple sets of data from Battle.net and finally store it into a MongoDB database named "raiddon-bnet-api"
+<br />The fetched data collections are:
 ```
+Achievements categories,
+Achivements,
+Areas,
+Armor,
+Auction house index,
+Alliance aucion house,
+Horde auction house,
+Character specialisations,
+Class talents,
+Consumables,
+Containers,
+Creature families,
+Creature types,
+Gems,
+Item classes,
+Mounts,
+Playable classes,
+Playable races,
+Power types,
+Professions,
+Quest categories,
+Quest types,
+Realms,
+Reputation factions,
+Titles,
+Weapons.
+```
+
+
 # Manual build
 ```
 git clone https://github.com/Farah404/Raiddon
 cd Raiddon
-cd bnet-access-token-express
+cd raiddon-bnet-data
 npm install
 ```
 
@@ -72,7 +82,6 @@ Official blizzard documentation: [Getting started with bnet API](https://develop
 
 # Legal
 This project is not authored, affiliated or endorsed in any way by Blizzard Entertainment.
-
 Battle.net and Blizzard Entertainment are trademarks or registered trademarks of Blizzard Entertainment, Inc. in the U.S. and/or other countries.
 
 
