@@ -1,5 +1,0 @@
-###Home page
-GET http://localhost:8085
-
-###Fetching Access Token
-GET http://localhost:8085/api/getAccessToken/eu
