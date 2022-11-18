@@ -1,10 +1,12 @@
 const { MongoClient, ServerApiVersion } = require("mongodb");
-const uri =
-  "mongodb+srv://farah404:SOuIRzWFWYAYk5SK@raiddon.8ypyold.mongodb.net/?retryWrites=true&w=majority";
-var access_token = "EU4RHONfOjOv9gBy4J4E1BPlPz0mlplYU7";
 
+const { env } = process;
 const CronJob = require("node-cron");
 const fetch = require("node-fetch");
+
+var access_token = env.ACCESS_TOKEN;
+const uri =
+  "mongodb+srv://farah404:"+env.MONGO_DB_PWD+"@raiddon.8ypyold.mongodb.net/?retryWrites=true&w=majority";
 
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
@@ -12,14 +14,22 @@ const client = new MongoClient(uri, {
   serverApi: ServerApiVersion.v1,
 });
 
-
+// # ┌───────────── minute (0 - 59)
+// # │ ┌───────────── hour (0 - 23)
+// # │ │ ┌───────────── day of the month (1 - 31)
+// # │ │ │ ┌───────────── month (1 - 12)
+// # │ │ │ │ ┌───────────── day of the week (0 - 6) (Sunday to Saturday;
+// # │ │ │ │ │                                   7 is also Sunday on some systems)
+// # │ │ │ │ │                                   OR sun, mon, tue, wed, thu, fri, sat
+// # │ │ │ │ │
+// # * * * * *
 exports.initScheduledJobs = () => {
   const scheduledJobFunction = CronJob.schedule("* * * * *", () => {
 // Data to be inserted: Playable races
 client.connect((err) => {
   const collection1 = client
     .db("raiddon-bnet-api")
-    .collection("playable-races");
+    .collection("playable-races")
   fetch(
     "https://us.api.blizzard.com/data/wow/playable-race/index?namespace=static-classic-us&locale=en_US&access_token=" +
       access_token
@@ -27,7 +37,6 @@ client.connect((err) => {
     .then((response) => response.json())
     .then((data) => {
       myobj = data.races;
-      // Collection in which the data will be inserted
       collection1.insertMany(myobj, function (err, res) {
         if (err) throw err;
         console.log("Playable races collection inserted into Raiddon db");
@@ -45,11 +54,8 @@ client.connect((err) => {
     .then((response) => response.json())
     .then((data) => {
       myobj = data.classes;
-      // Collection in which the data will be inserted
-      collection2.insertMany(myobj, function (err, res) {
-        if (err) throw err;
-        console.log("Playable classes collection inserted into Raiddon db");
-      });
+      collection2.updateMany({ }, [{$set:{myobj}}], {upsert:true});
+      console.log("Playable classes collection inserted into Raiddon db");
     });
 
   // Data to be inserted: Auction house index
