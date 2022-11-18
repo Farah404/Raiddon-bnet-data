@@ -1,13 +1,6 @@
 const router = require('express').Router();
 const { BlizzAPI } = require('blizzapi');
 
-// const fetch = require('node-fetch');
-// async function start() {
-// const response = await fetch('https://us.api.blizzard.com/data/wow/playable-race/index?namespace=static-classic-us&locale=en_US&access_token=EUW5nbYYRvi27pVlj2KksCC7OmKbR9DvVXhttps://api.github.com/users/github');
-// const data = await response.json();
-// console.log(data);
-// }
-
 /** Regions */
 router.get('/getAllRegions', (req, res) => {
   res.json(BlizzAPI.getAllRegions());
