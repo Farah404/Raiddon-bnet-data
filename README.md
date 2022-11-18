@@ -7,7 +7,8 @@ This work is a part of a bigger project: RAIDDON. Raiddon is a project that fost
 throughout  the  ISIKA  10-month  educational  program.  
 <br />
 The code will first fetch your access token then fetch multiple sets of data from Battle.net and finally store it into a MongoDB database named "raiddon-bnet-api"
-<br />The fetched data collections are:
+<br />
+The fetched data collections are:
 ```
 Achievements categories,
 Achivements,
