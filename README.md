@@ -62,20 +62,6 @@ API_BATTLENET_SECRET='your client app secret'
 ### With Nodemon:
 ```nodemon start.js```
 
-# Available endpoints
-## API endpoints
- ```GET /api/query/:region?endpoint=:endpoint```
-<br />
-Fetches data from a Battle.net API endpoint using a specified regional server using [BlizzAPI.query](https://blizzapi.lukem.net/docs/usage/query.html) method.
-<br />
-Example: ```http://localhost:8085/api/query/1?endpoint=/sc2/profile/1/2/242838```
-<br /><br />
- ```GET /api/query/:region?endpoint=:endpoint```
-<br />
-Obtains and returns OAuth access token using [BlizzAPI.getAccessToken](https://blizzapi.lukem.net/docs/usage/getting-access-token.html) method.
-<br />
-Example: ```http://localhost:8085/api/getAccessToken/eu```
-
 # Documentation
 
 Get your client ID and client secret here: [BattleNet dev portal](https://develop.battle.net/)<br />
