@@ -1,11 +1,8 @@
 require('dotenv').config();
 const app = require('./src/app');
 const port = process.env.PORT || 8080;
-<<<<<<< Updated upstream
-=======
 const createError = require('http-errors');
 const scheduledFunctions = require('./scheduledFunctions')
->>>>>>> Stashed changes
 
 app.listen(port, () => {
   console.log(`RAIDDON listening on ${port}!`);
