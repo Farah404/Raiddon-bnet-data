@@ -64,6 +64,8 @@ Copy and rename the file `.env.sample` to `.env`. Edit it accordingly: <br />
 PORT='8080'
 API_BATTLENET_KEY='your client app id'
 API_BATTLENET_SECRET='your client app secret'
+MONGO_DB_URI='The link that allows you to connect to your Mongo Atlas free cluster'
+ACCESS_TOKEN = 'The access token retrieved using Raiddon-bnet-data'
 ```
 
 # Run
@@ -80,6 +82,5 @@ Official blizzard documentation: [Getting started with bnet API](https://develop
 # Legal
 This project is not authored, affiliated or endorsed in any way by Blizzard Entertainment.
 Battle.net and Blizzard Entertainment are trademarks or registered trademarks of Blizzard Entertainment, Inc. in the U.S. and/or other countries.
-
 
 
