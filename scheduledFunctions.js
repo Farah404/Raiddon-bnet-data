@@ -5,8 +5,7 @@ const CronJob = require("node-cron");
 const fetch = require("node-fetch");
 
 var access_token = env.ACCESS_TOKEN;
-const uri =
-  "mongodb+srv://farah404:"+env.MONGO_DB_PWD+"@raiddon.8ypyold.mongodb.net/?retryWrites=true&w=majority";
+const uri = env.MONGO_DB_URI;
 
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
