@@ -77,7 +77,8 @@ ACCESS_TOKEN = 'The access token retrieved using Raiddon-bnet-data'
 # Documentation
 
 Get your client ID and client secret here: [BattleNet dev portal](https://develop.battle.net/)<br />
-Official blizzard documentation: [Getting started with bnet API](https://develop.battle.net/documentation/guides/getting-started)
+Official blizzard documentation: [Getting started with bnet API](https://develop.battle.net/documentation/guides/getting-started)<br />
+Create your free cluster here: [MongoDB Atlas](https://www.mongodb.com/atlas/database)
 
 # Legal
 This project is not authored, affiliated or endorsed in any way by Blizzard Entertainment.
