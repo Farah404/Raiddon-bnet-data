@@ -64,8 +64,8 @@ Copy and rename the file `.env.sample` to `.env`. Edit it accordingly: <br />
 PORT='8080'
 API_BATTLENET_KEY='your client app id'
 API_BATTLENET_SECRET='your client app secret'
-MONGO_DB_URI="The link that allows you to connect to your Mongo Atlas free cluster"
-ACCESS_TOKEN = "The access token retrieved using Raiddon-bnet-data"
+MONGO_DB_URI='The link that allows you to connect to your Mongo Atlas free cluster'
+ACCESS_TOKEN = 'The access token retrieved using Raiddon-bnet-data'
 ```
 
 # Run
