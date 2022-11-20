@@ -13,6 +13,11 @@ const client = new MongoClient(uri, {
   serverApi: ServerApiVersion.v1,
 });
 
+const databaseName ="raiddon-bnet-api"
+const connect = client.db(databaseName);
+connect.dropDatabase();
+console.log("Dropping successful");
+
 // # ┌───────────── minute (0 - 59)
 // # │ ┌───────────── hour (0 - 23)
 // # │ │ ┌───────────── day of the month (1 - 31)
@@ -22,8 +27,8 @@ const client = new MongoClient(uri, {
 // # │ │ │ │ │                                   OR sun, mon, tue, wed, thu, fri, sat
 // # │ │ │ │ │
 // # * * * * *
-exports.initScheduledJobs = () => {
-  const scheduledJobFunction = CronJob.schedule("* * * * *", () => {
+// exports.initScheduledJobs = () => {
+//   const scheduledJobFunction = CronJob.schedule("* * * * *", () => {
 // Data to be inserted: Playable races
 client.connect((err) => {
   const collection1 = client
@@ -53,8 +58,10 @@ client.connect((err) => {
     .then((response) => response.json())
     .then((data) => {
       myobj = data.classes;
-      collection2.updateMany({ }, [{$set:{myobj}}], {upsert:true});
-      console.log("Playable classes collection inserted into Raiddon db");
+      collection2.insertMany(myobj, function (err, res) {
+        if (err) throw err;
+        console.log("Playable classes collection inserted into Raiddon db");
+      });
     });
 
   // Data to be inserted: Auction house index
@@ -328,7 +335,7 @@ client.connect((err) => {
       collection19.insertMany(myobj, function (err, res) {
         if (err) throw err;
         console.log(
-          "Character specializations collection inserted into Raiddon db"
+          "Character collection inserted into Raiddon db"
         );
       });
     });
@@ -347,7 +354,7 @@ client.connect((err) => {
       collection20.insertMany(myobj, function (err, res) {
         if (err) throw err;
         console.log(
-          "Quest categories specializations collection inserted into Raiddon db"
+          "Quest categories collection inserted into Raiddon db"
         );
       });
     });
@@ -364,7 +371,7 @@ client.connect((err) => {
       collection21.insertMany(myobj, function (err, res) {
         if (err) throw err;
         console.log(
-          "Areas specializations collection inserted into Raiddon db"
+          "Areas collection inserted into Raiddon db"
         );
       });
     });
@@ -383,7 +390,7 @@ client.connect((err) => {
       collection22.insertMany(myobj, function (err, res) {
         if (err) throw err;
         console.log(
-          "Reputation factions specializations collection inserted into Raiddon db"
+          "Reputation factions collection inserted into Raiddon db"
         );
       });
     });
@@ -402,7 +409,7 @@ client.connect((err) => {
       collection23.insertMany(myobj, function (err, res) {
         if (err) throw err;
         console.log(
-          "Class talents specializations collection inserted into Raiddon db"
+          "Class talents collection inserted into Raiddon db"
         );
       });
     });
@@ -419,11 +426,11 @@ client.connect((err) => {
       collection24.insertMany(myobj, function (err, res) {
         if (err) throw err;
         console.log(
-          "Titles specializations collection inserted into Raiddon db"
+          "Titles collection inserted into Raiddon db"
         );
       });
     });
 });
-});
-scheduledJobFunction.start();
-};
+// });
+// scheduledJobFunction.start();
+// };

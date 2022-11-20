@@ -9,7 +9,7 @@ app.listen(port, () => {
 });
 
 // Call to execute scheduled function(s)
-scheduledFunctions.initScheduledJobs();
+// scheduledFunctions.initScheduledJobs();
 
 //Generating error page
 app.use(async (res, req, next) => {

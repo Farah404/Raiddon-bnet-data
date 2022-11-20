@@ -1,7 +1,7 @@
 {
   "name": "wow-data",
   "version": "1.0.0",
-  "description": "World of warcraft fetching access token and data base node.js",
+  "description": "World of warcraft fetching access token and data base using node.js",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
