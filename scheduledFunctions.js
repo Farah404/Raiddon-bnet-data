@@ -27,8 +27,8 @@ console.log("Dropping successful");
 // # │ │ │ │ │                                   OR sun, mon, tue, wed, thu, fri, sat
 // # │ │ │ │ │
 // # * * * * *
-// exports.initScheduledJobs = () => {
-//   const scheduledJobFunction = CronJob.schedule("* * * * *", () => {
+exports.initScheduledJobs = () => {
+  const scheduledJobFunction = CronJob.schedule("* * * * *", () => {
 // Data to be inserted: Playable races
 client.connect((err) => {
   const collection1 = client
@@ -431,6 +431,6 @@ client.connect((err) => {
       });
     });
 });
-// });
-// scheduledJobFunction.start();
-// };
+});
+scheduledJobFunction.start();
+};
