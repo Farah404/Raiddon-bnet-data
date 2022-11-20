@@ -13,10 +13,7 @@ const client = new MongoClient(uri, {
   serverApi: ServerApiVersion.v1,
 });
 
-const databaseName ="raiddon-bnet-api"
-const connect = client.db(databaseName);
-connect.dropDatabase();
-console.log("Dropping successful");
+
 
 // # ┌───────────── minute (0 - 59)
 // # │ ┌───────────── hour (0 - 23)
@@ -29,6 +26,11 @@ console.log("Dropping successful");
 // # * * * * *
 exports.initScheduledJobs = () => {
   const scheduledJobFunction = CronJob.schedule("* * * * *", () => {
+
+const databaseName ="raiddon-bnet-api"
+const connect = client.db(databaseName);
+connect.dropDatabase();
+console.log("Dropping successful");
 // Data to be inserted: Playable races
 client.connect((err) => {
   const collection1 = client
