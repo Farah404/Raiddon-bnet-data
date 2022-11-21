@@ -1,6 +1,6 @@
 require('dotenv').config();
 const app = require('./src/app');
-const port = process.env.PORT || 8080;
+const port = 8085;
 const createError = require('http-errors');
 const scheduledFunctions = require('./scheduledFunctions')
 
