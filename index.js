@@ -1,11 +1,10 @@
 require('dotenv').config();
 const app = require('./src/app');
-const port = 8085;
 const createError = require('http-errors');
 const scheduledFunctions = require('./scheduledFunctions')
 
-app.listen(port, () => {
-  console.log(`RAIDDON listening on ${port}!`);
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
 
 // Call to execute scheduled function(s)
