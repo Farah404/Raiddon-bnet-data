@@ -74,6 +74,12 @@ ACCESS_TOKEN = 'The access token retrieved using Raiddon-bnet-data'
 ### With Nodemon:
 ```nodemon start.js```
 
+# Heroku Deployment
+
+[Raiddon Battle.net API](https://raiddon-bnet-api.herokuapp.com/)
+
+
+
 # Documentation
 
 Get your client ID and client secret here: [BattleNet dev portal](https://develop.battle.net/)<br />
