@@ -1,7 +1,5 @@
 const express = require('express');
-const createError = require('http-errors');
 const cors = require("cors");
-
 const app = express();
 
 
@@ -20,8 +18,14 @@ var corsOptions = {
 /** Applying JSON indentation */
 app.set('json spaces', 2);
 
+
+app.set('views', __dirname + '/views');
+app.set('view engine', 'ejs');
+app.engine('html', require('ejs').renderFile);
+
 /** Routes */
 require('./routes/index')(app);
+
 
 /** Starting server */
 module.exports = app;
