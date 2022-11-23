@@ -432,6 +432,21 @@ client.connect((err) => {
         );
       });
     });
+
+      // Data to be inserted: Achievements categories
+  const collection25 = client.db("raiddon-bnet-api").collection("achievements-categories");
+  fetch(
+    "https://us.api.blizzard.com/data/wow/achievement-category/index ?namespace=static-us&locale=en_US&access_token=" +
+      access_token
+  )
+    .then((response) => response.json())
+    .then((data) => {
+      myobj = data.categories;
+      collection25.insertMany(myobj, function (err, res) {
+        if (err) throw err;
+        console.log("Achievements categories inserted into Raiddon db");
+      });
+    });
 });
 });
 scheduledJobFunction.start();

@@ -3,12 +3,12 @@ var router = express.Router();
 const dbo = require('../../config/db_config');
 
 
-router.route("/areas").get(async function(req, res){
+router.route("/itemClasses").get(async function(req, res){
   const dbConnect = dbo.getDb();
 
 
 dbConnect
-.collection('areas')
+.collection('item-classes')
 .find({})
     .toArray(function (err, result) {
       if (err) {
