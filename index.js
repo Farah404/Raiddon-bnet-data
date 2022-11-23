@@ -48,8 +48,5 @@ dbo.connectToServer(function (err) {
 app.use(cors());
 
 
-
-
-
 // Call to execute scheduled function(s)
 scheduledFunctions.initScheduledJobs();

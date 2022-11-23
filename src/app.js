@@ -1,11 +1,15 @@
 const express = require('express');
+const cors = require("cors");
 const app = express();
 
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-
+var corsOptions = {
+    origin: "http://localhost:4200"
+  };
+  app.use(cors(corsOptions));
   // parse requests of content-type - application/json
   app.use(express.json());
   // parse requests of content-type - application/x-www-form-urlencoded
