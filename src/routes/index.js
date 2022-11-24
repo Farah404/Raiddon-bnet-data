@@ -24,7 +24,7 @@ module.exports = (app) => {
   app.use('/api', require('./app/itemClasses'))
   app.use('/api', require('./app/mounts'))
   app.use('/api', require('./app/playableRaces'))
-  app.use('/api', require('./app/playableRaces'))
+  app.use('/api', require('./app/playableClasses'))
   app.use('/api', require('./app/powerTypes'))
  
   app.use('*',function (req, res) {
