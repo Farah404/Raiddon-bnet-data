@@ -45,7 +45,7 @@ ssl/
 *.key
 
 # Environment variables
-.env
+
 # Local database 
 db/
 
