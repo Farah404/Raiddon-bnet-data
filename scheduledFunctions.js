@@ -13,7 +13,20 @@ const client = new MongoClient(uri, {
   serverApi: ServerApiVersion.v1,
 });
 
+// const url = 'https://wow-patch-notes-live.p.rapidapi.com/patch-notes';
 
+// const options = {
+//   method: 'GET',
+//   headers: {
+//     'X-RapidAPI-Key': 'f1b8e3f251mshb48f61e48c6a0e1p178cbbjsn7e6d156563ae',
+//     'X-RapidAPI-Host': 'wow-patch-notes-live.p.rapidapi.com'
+//   }
+// };
+
+// fetch(url, options)
+// 	.then(res => res.json())
+// 	.then(res => console.table(res))
+// 	.catch(err => console.error('error:' + err));
 
 // # ┌───────────── minute (0 - 59)
 // # │ ┌───────────── hour (0 - 23)
@@ -25,7 +38,7 @@ const client = new MongoClient(uri, {
 // # │ │ │ │ │
 // # * * * * *
 exports.initScheduledJobs = () => {
-  const scheduledJobFunction = CronJob.schedule("0 0 * * SUN", () => {
+  const scheduledJobFunction = CronJob.schedule("0 0 * * WED", () => {
 
 const databaseName ="raiddon-bnet-api"
 const connect = client.db(databaseName);

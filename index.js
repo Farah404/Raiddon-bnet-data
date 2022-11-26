@@ -3,6 +3,7 @@ const app = require("./src/app");
 const scheduledFunctions = require("./scheduledFunctions");
 const dbo = require('./src/config/db_config');
 var cors = require('cors');
+var staticData = require('./staticData');
 
 app.use(require('./src/routes/app/areas'));
 app.use(require('./src/routes/app/achievements'));
@@ -28,7 +29,7 @@ app.use(require('./src/routes/app/mounts'));
 app.use(require('./src/routes/app/playableClasses'));
 app.use(require('./src/routes/app/playableRaces'));
 app.use(require('./src/routes/app/powerTypes'));
-
+app.use(require('./src/routes/app/racePictures'));
 
 dbo.connectToServer(function (err) {
   if (err) {
