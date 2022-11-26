@@ -8,7 +8,7 @@ router.route("/racePictures").get(async function(req, res){
 
 
 dbConnect
-.collection('race-pictures')
+.collection('races-pictures')
 .find({})
     .toArray(function (err, result) {
       if (err) {
