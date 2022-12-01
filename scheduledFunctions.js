@@ -38,7 +38,7 @@ const client = new MongoClient(uri, {
 // # │ │ │ │ │
 // # * * * * *
 exports.initScheduledJobs = () => {
-  const scheduledJobFunction = CronJob.schedule("* * * * * ", () => {
+  const scheduledJobFunction = CronJob.schedule("0 0 1 * *", () => {
 
 const databaseName ="raiddon-bnet-api"
 const connect = client.db(databaseName);
