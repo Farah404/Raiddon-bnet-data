@@ -6,7 +6,12 @@
 [![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/)
 [![Docker](https://badgen.net/badge/icon/docker?icon=docker&label)](https://www.docker.com/)
 [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://i.pinimg.com/originals/21/f0/92/21f0929a92ebe840eb932af199fb3260.gif)
-
+<br />
+[![My Skills](https://skills.thijs.gg/icons?i=nodejs)](https://skills.thijs.gg)
+[![My Skills](https://skills.thijs.gg/icons?i=js)](https://skills.thijs.gg)
+[![My Skills](https://skills.thijs.gg/icons?i=docker)](https://skills.thijs.gg)
+[![My Skills](https://skills.thijs.gg/icons?i=git)](https://skills.thijs.gg)
+[![My Skills](https://skills.thijs.gg/icons?i=mongodb)](https://skills.thijs.gg)
 
 ![RAIDDON](https://user-images.githubusercontent.com/96427557/200582770-00732e9c-733b-4706-acaf-f7a082bb4e78.png)
 
@@ -89,5 +94,3 @@ Create your free cluster here: [MongoDB Atlas](https://www.mongodb.com/atlas/dat
 # Legal
 This project is not authored, affiliated or endorsed in any way by Blizzard Entertainment.
 Battle.net and Blizzard Entertainment are trademarks or registered trademarks of Blizzard Entertainment, Inc. in the U.S. and/or other countries.
-
-
